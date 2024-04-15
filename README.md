@@ -22,7 +22,7 @@ conda create --name ilamb-watersheds
 conda activate ilamb-watersheds
 ```
 
-The ILAMB package v2.6 is already built in the [conda-forge](https://conda-forge.org/) channel. We need to make sure that this channel is added. If you use conda, you probably have already done this, but it does not hurt to run it again.
+The ILAMB package v2.7 is already built in the [conda-forge](https://conda-forge.org/) channel. We need to make sure that this channel is added. If you use conda, you probably have already done this, but it does not hurt to run it again.
 
 ```bash
 conda config --add channels conda-forge
@@ -32,15 +32,7 @@ conda config --set channel_priority strict
 Then we can install ILAMB.
 
 ```bash
-conda install ILAMB
-```
-
-The capabilities we are presenting today have been written for this tutorial and are not yet into a release of ILAMB. So we will install ILAMB again on top of the conda build but this time directly referencing the `master` branch from [github](https://github.com/rubisco-sfa/ILAMB) with the `watershed` extras. Navigate to some location where you keep source code and then:
-
-```bash
-git clone https://github.com/rubisco-sfa/ILAMB.git
-cd ILAMB
-python -m pip install '.[watershed]'
+conda install ILAMB[watershed]
 ```
 
 The `watershed` extras installs additional packages that we need to handle geographic projections and query the USGS data servers. By including them as extras, more traditional ILAMB users can avoid installing packages they do not need. Note that depending on your system, you may also need to install `wget` and `gdal`. These can also be added with conda:
@@ -56,7 +48,7 @@ Finally we can test that all of this worked by running:
 python -c "import ILAMB; print(ILAMB.__version__)"
 ```
 
-If you get a numeric `2.6`, then your ILAMB package should be setup correctly and you are ready to go!
+If you get a numeric `2.7`, then your ILAMB package should be setup correctly and you are ready to go!
 
 ## Setting Up Your Data
 

@@ -1,4 +1,4 @@
-# ILAMB Watershed Evaluation
+# ILAMB Watershed Model Benchmarking
 
 This tutorial was developed by Jitendra (Jitu) Kumar (_ORNL_) and Nathan Collier (_ORNL_) as part of virtual hackathon held on April 27, 2023, 
 organized by Xingyuan Chen (_PNNL_) and Forrest Hoffman (_ORNL_) for the ESS Cyberinfrastructure Model-Data Integration Working Group<br>
@@ -8,7 +8,7 @@ Recorded video of the session:
 
 [![Virtual Hackathon for ILAMB Watershed Evaluation (April 27, 2023)](http://img.youtube.com/vi/-VpHP4Ckuus/0.jpg)](https://www.youtube.com/watch?v=-VpHP4Ckuus "Virtual Hackathon for ILAMB Watershed Evaluation (April 27, 2023)")
 
-# ILAMB Watersheds Hackathon
+# ILAMB Watershed Model Benchmarking
 
 
 ## Installation

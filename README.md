@@ -1,7 +1,7 @@
-# Virtual Hackathon for ILAMB Watershed Evaluation (April 27, 2023)
+# ILAMB Watershed Evaluation
 
-Led by: Jitendra (Jitu) Kumar (_ORNL_) and Nathan Collier (_ORNL_)<br>
-Organized by Xingyuan Chen (_PNNL_) and Forrest Hoffman (_ORNL_) for the ESS Cyberinfrastructure Model-Data Integration Working Group<br>
+This tutorial was developed by Jitendra (Jitu) Kumar (_ORNL_) and Nathan Collier (_ORNL_) as part of virtual hackathon held on April 27, 2023, 
+organized by Xingyuan Chen (_PNNL_) and Forrest Hoffman (_ORNL_) for the ESS Cyberinfrastructure Model-Data Integration Working Group<br>
 **Supported by the RUBISCO SFA, InteRFACE SFA, COMPASS-GLM SFA, PNNL Watershed SFA, NGEE Arctic SFA, ORNL TES SFA, and E3SM SFA**
 
 Recorded video of the session:
